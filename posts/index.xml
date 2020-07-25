@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Paul Joubert</title>
+    <link>https://pauljoubert.github.io/posts/</link>
+    <description>Recent content in Posts on Paul Joubert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Jul 2020 20:50:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://pauljoubert.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alhambra Tiles</title>
+      <link>https://pauljoubert.github.io/posts/alhambra-patterns/</link>
+      <pubDate>Tue, 07 Jul 2020 20:50:51 +0200</pubDate>
+      
+      <guid>https://pauljoubert.github.io/posts/alhambra-patterns/</guid>
+      <description>The Alhambra tiles A few years ago I visited the Alhambra in Granada, Spain. I was fascinated by the beautiful tiles, by their geometric patterns and repetitive colours. Here is one with overlapping white ribbons wrapped around blue, black and orange octogons:
+  This one is formed by repeated rectangular shapes, darkly coloured in one direction, white in the orthogonal direction:
+  And this one with its stars and wings is known as the Nasrid little bird:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Paul Joubert">
+    <meta name="description" content="The Alhambra tiles A few years ago I visited the Alhambra in Granada, Spain. I was fascinated by the beautiful tiles, by their geometric patterns and repetitive colours. Here is one with overlapping white ribbons wrapped around blue, black and orange octogons:
+  This one is formed by repeated rectangular shapes, darkly coloured in one direction, white in the orthogonal direction:
+  And this one with its stars and wings is known as the Nasrid little bird:">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Alhambra Tiles"/>
+<meta name="twitter:description" content="The Alhambra tiles A few years ago I visited the Alhambra in Granada, Spain. I was fascinated by the beautiful tiles, by their geometric patterns and repetitive colours. Here is one with overlapping white ribbons wrapped around blue, black and orange octogons:
+  This one is formed by repeated rectangular shapes, darkly coloured in one direction, white in the orthogonal direction:
+  And this one with its stars and wings is known as the Nasrid little bird:"/>
+
+    <meta property="og:title" content="Alhambra Tiles" />
+<meta property="og:description" content="The Alhambra tiles A few years ago I visited the Alhambra in Granada, Spain. I was fascinated by the beautiful tiles, by their geometric patterns and repetitive colours. Here is one with overlapping white ribbons wrapped around blue, black and orange octogons:
+  This one is formed by repeated rectangular shapes, darkly coloured in one direction, white in the orthogonal direction:
+  And this one with its stars and wings is known as the Nasrid little bird:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pauljoubert.github.io/posts/alhambra-patterns/" />
+<meta property="article:published_time" content="2020-07-07T20:50:51+02:00" />
+<meta property="article:modified_time" content="2020-07-07T20:50:51+02:00" />
+
+
+    
+      <base href="https://pauljoubert.github.io/posts/alhambra-patterns/">
+    
+    <title>
+  Alhambra Tiles · Paul Joubert
+</title>
+
+    
+      <link rel="canonical" href="https://pauljoubert.github.io/posts/alhambra-patterns/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://pauljoubert.github.io/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://pauljoubert.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://pauljoubert.github.io/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://pauljoubert.github.io/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.73.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://pauljoubert.github.io/">
+      Paul Joubert
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://pauljoubert.github.io/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://pauljoubert.github.io/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Alhambra Tiles</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-07-07T20:50:51&#43;02:00'>
+                July 7, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              13-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://pauljoubert.github.io/tags/javascript/">javascript</a>
+      <span class="separator">•</span>
+    <a href="https://pauljoubert.github.io/tags/typescript/">typescript</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="the-alhambra-tiles">The Alhambra tiles</h1>
+<p>A few years ago I visited the <a href="https://en.wikipedia.org/wiki/Alhambra">Alhambra</a> in Granada, Spain. I was fascinated by the beautiful tiles, by their geometric patterns and repetitive colours. Here is one with overlapping white ribbons wrapped around blue, black and orange octogons:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/alhambra_1.jpg"/> 
+</figure>
+
+<p>This one is formed by repeated rectangular shapes, darkly coloured in one direction, white in the orthogonal direction:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/alhambra_2.jpg"/> 
+</figure>
+
+<p>And this one with its stars and wings is known as the Nasrid little bird:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/alhambra_little_bird.jpg"/> 
+</figure>
+
+<p>I recently started learning Javascript, and decided to use the Canvas API to draw the little bird pattern above. You can interact with the <a href="https://pauljoubert.github.io/alhambra/">pattern</a> on desktop by using the mouse to move it around and to zoom in and out. It also works on mobile (use Chrome instead of Firefox to be able to move around). The <a href="https://github.com/pauljoubert/alhambra">source code</a> is on Github. Note that halfway through I switched from Javascript to Typescript.</p>
+<p>I used the Nasrid little bird pattern above. This is the name given to it by a wonderful book <em>The Alhambra with a ruler and compass</em> by Manuel Martínes Vela:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/alhambra_book.jpg"/> 
+</figure>
+
+<p>As the name suggests, <em>The Alhambra with a ruler and compass</em> explains how the patterns can be drawn by hand using only a ruler and a compass. Each pattern is shown on a grid, similar to the one on the cover. From the pattern and the grid you can infer the length, curvature and relative position of each line segment.</p>
+<p>It is not too hard to render a static image of the pattern. To make it more interesting, I wanted to be able to move the pattern around, and zoom in and out. The pattern has no boundary, so I wanted to be able to move infinitely far in any direction.</p>
+<p>In the rest of this post, I&rsquo;ll give an overview of the Typescript code used to define the pattern. And I&rsquo;ll describe the algorithm that&rsquo;s used to give the impression of an infinite 2D plane.</p>
+<h1 id="drawing-the-little-bird-pattern">Drawing the little bird pattern</h1>
+<p>I decided on a completely stateless approach. The only state is a 2D translation vector and a scaling factor (the zoom level). Together these represent the current transformation of the pattern. An event such as click-and-drag changes the transformation and triggers a new rendering of the pattern from scratch.</p>
+<p>The little bird pattern consists of two units repeated along a 2D lattice, in this case a <a href="https://en.wikipedia.org/wiki/Hexagonal_lattice">hexagonal lattice</a>. The first unit is the six-sided star. The other unit consists of three curved triangular wings arranged symmetrically around a white hexagon.</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/star_wing_bounding_box.png"/> 
+</figure>
+
+<h2 id="a-single-unit">A single unit</h2>
+<p>The first step is to draw each of the basic units. Here is the code for drawing the star:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">littleBirdStar</span>: <span style="color:#66d9ef">Unit</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">draw</span>: <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">ctx</span>: <span style="color:#66d9ef">CanvasRenderingContext2D</span>) {
+        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">r</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">sqrt</span>(<span style="color:#ae81ff">3</span>) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">moveTo</span>(<span style="color:#a6e22e">r</span>, <span style="color:#ae81ff">0</span>);
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">save</span>();
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">6</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+            <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">lineTo</span>(<span style="color:#a6e22e">r</span>, <span style="color:#ae81ff">0</span>);
+            <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">lineTo</span>(<span style="color:#ae81ff">0.5</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">r</span>, <span style="color:#ae81ff">0.25</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">r</span>);
+            <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">rotate</span>(Math.<span style="color:#a6e22e">PI</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">3</span>);
+        }
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">lineTo</span>(<span style="color:#a6e22e">r</span>, <span style="color:#ae81ff">0</span>);
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">restore</span>();
+    },
+    <span style="color:#a6e22e">boundingBox</span>: <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Rectangle</span>(<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>), <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>))
+}
+</code></pre></div><p>In addition to specifying how to draw the star (the <code>draw</code> function), we have to define a rectangular bounding box that contains the star. The bounding box is used later to determine if a translated star is still inside the canvas. We&rsquo;ll know that it&rsquo;s outside the canvas if the bounding box and the canvas don&rsquo;t overlap. The bounding boxes are shown in red in the image above.</p>
+<p>The <code>draw</code> function and bounding box for the wings is specified in a similar way.</p>
+<h2 id="covering-the-canvas">Covering the canvas</h2>
+<p>The next step is to cover the canvas with stars. For this we need to know the location of the canvas, and the transformation (shift and scale) that should be applied to the star before drawing it. Note that the bounding box given above has a width and height of only 2 pixels, so we will need a transformation with a scale much larger than 1 to be able to see it.</p>
+<p>To incorporate transformations, I created the following <code>Drawable</code> type:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#a6e22e">type</span> <span style="color:#a6e22e">Drawable</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">ctx</span>: <span style="color:#66d9ef">CanvasRenderingContext2D</span>, <span style="color:#a6e22e">transformation</span>: <span style="color:#66d9ef">Transformation</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">void</span>;
+</code></pre></div><p>An object of type <code>Drawable</code>  knows how to draw itself on a canvas after applying a given transformation to it. Because the transformation will vary while the canvas remains fixed, I decide to pass the transformation as a parameter to the callable <code>Drawable</code> object, while the canvas is passed to the constructor of a <code>Drawable</code> object (see below).</p>
+<p>For covering the canvas with our star, we can create a <code>Drawable</code> like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">starTilingReference</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createTiling</span>(
+    <span style="color:#a6e22e">littleBirdStar</span>, 
+	<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Basis</span>(<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> Math.<span style="color:#a6e22e">sqrt</span>(<span style="color:#ae81ff">3</span>), <span style="color:#ae81ff">0</span>), <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">12</span>)), 
+	<span style="color:#a6e22e">canvas</span>
+);
+</code></pre></div><p>The object <code>starTilingReference</code> is a <code>Drawable</code> which repeats the star along the lattice spanned by the two <code>Basis</code> vectors. It uses the <code>canvas</code> parameter to avoid drawing the star at lattice points that lie too far outside the canvas.</p>
+<p>Before drawing the stars, we have to fill them with an appropriate colour, in this case black:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">starTiling</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">withFill</span>(<span style="color:#a6e22e">starTilingReference</span>, <span style="color:#e6db74">&#34;black&#34;</span>);
+...
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">withFill</span>(<span style="color:#a6e22e">draw</span>: <span style="color:#66d9ef">Drawable</span>, <span style="color:#a6e22e">fillStyle?</span>: <span style="color:#66d9ef">string</span>)<span style="color:#f92672">:</span> <span style="color:#a6e22e">Drawable</span> {
+    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">transformation</span>) <span style="color:#f92672">=&gt;</span> {
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">beginPath</span>();
+        <span style="color:#a6e22e">draw</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">transformation</span>);
+        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">fillStyle</span>) {
+            <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">fillStyle</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fillStyle</span>;
+        }
+        <span style="color:#a6e22e">ctx</span>.<span style="color:#a6e22e">fill</span>();
+    }
+}
+</code></pre></div><p>The function <code>withFill</code> is one of several higher-order functions that map a <code>Drawable</code> to another <code>Drawable</code>.</p>
+<p>Here are the resulting black stars:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/star_tiling_black.png"/> 
+</figure>
+
+<p>The red bounding box indicates the unit that is closest to the center of the canvas.</p>
+<p>This is a rectangular rather than a hexogonal lattice, because we&rsquo;re still missing the other stars (the ones that are not black).</p>
+<h2 id="adding-colours">Adding colours</h2>
+<p>To add the other stars, we shift the above lattice using another higher-order function from <code>Drawable</code> to <code>Drawable</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">withModifyTransformation</span>(
+    <span style="color:#a6e22e">draw</span>: <span style="color:#66d9ef">Drawable</span>, 
+	<span style="color:#a6e22e">modifyTransformation</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">t</span>: <span style="color:#66d9ef">Transformation</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">Transformation</span>
+)<span style="color:#f92672">:</span> <span style="color:#a6e22e">Drawable</span> {
+    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">transformation</span>) <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">draw</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">modifyTransformation</span>(<span style="color:#a6e22e">transformation</span>));
+}
+</code></pre></div><p>This produces three additional tilings. These four tilings are combined to form a single <code>Drawable</code> using yet another higher-order function:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">joinDrawables</span>(<span style="color:#a6e22e">drawables</span>: <span style="color:#66d9ef">Drawable</span>[])<span style="color:#f92672">:</span> <span style="color:#a6e22e">Drawable</span> {
+    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">transformation</span>) <span style="color:#f92672">=&gt;</span> {
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">drawable</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">drawables</span>) {
+            <span style="color:#a6e22e">drawable</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">transformation</span>);
+        }
+    }
+}
+</code></pre></div><p>Here are all the stars for the final pattern:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/star_tiling_all.png"/> 
+</figure>
+
+<h2 id="the-wings">The wings</h2>
+<p>Repeating all the above steps using the wings instead of the stars gives:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/wings_tiling_all.png"/> 
+</figure>
+
+<h2 id="the-final-pattern">The final pattern</h2>
+<p>Combining the stars and the wings yields the final pattern:</p>
+<figure>
+    <img src="https://pauljoubert.github.io/images/pattern_full.png"/> 
+</figure>
+
+<h2 id="additional-patterns">Additional patterns</h2>
+<p>It should not be too hard to add additional patterns. All the code used to define the little bird pattern is in the same <code>.ts</code> file with less than 90 lines. Only this file would need to be modified to create another pattern.</p>
+<h1 id="an-algorithm-for-filling-the-canvas">An algorithm for filling the canvas</h1>
+<p>Earlier we covered the entire canvas with a single star using this code snippet:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">starTilingReference</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createTiling</span>(
+    <span style="color:#a6e22e">littleBirdStar</span>, 
+	<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Basis</span>(<span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> Math.<span style="color:#a6e22e">sqrt</span>(<span style="color:#ae81ff">3</span>), <span style="color:#ae81ff">0</span>), <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Vector</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">12</span>)), 
+	<span style="color:#a6e22e">canvas</span>
+);
+</code></pre></div><p>Implementing the <code>createTiling</code> function was the most challenging part of this project. More precisely, <code>createTiling</code> calls a function <code>generateCovering</code>, which contains the tricky part. Here&rsquo;s its signature:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">generateCovering</span>(
+    <span style="color:#a6e22e">boundingBox</span>: <span style="color:#66d9ef">Rectangle</span>, <span style="color:#a6e22e">basis</span>: <span style="color:#66d9ef">Basis</span>, <span style="color:#a6e22e">canvas</span>: <span style="color:#66d9ef">Rectangle</span>
+)<span style="color:#f92672">:</span> Array&lt;<span style="color:#f92672">Vector</span>&gt;
+</code></pre></div><p>Both the bounding box and basis have been transformed to the coordinate system of the canvas before calling this function.</p>
+<p>The basis defines a discrete 2D lattice which acts on the bounding box via translation. The goal of the <code>generateCovering</code> function is to find the bounding boxes that overlap with the canvas.</p>
+<p>This is important, because these overlapping bounding boxes are exactly the ones for which we should draw the unit (eg. the star).</p>
+<p>There were two parts to this task: coming up with an algorithm, and proving that it&rsquo;s correct. I&rsquo;ll leave out the proof, but should note that trying to prove correctness was essential in understanding why earlier versions of the algorithm occasionally failed to find all the overlapping bounding boxes.</p>
+<h2 id="definitions">Definitions</h2>
+<p>We are given a bounding box, a canvas, and two basis vectors $\mathbf{v}, \mathbf{w} \in \mathbb{R}^2$, where $\mathbb{R}^2$ is an additive group that acts on the bounding box via translation. The basis vectors span a discrete subgroup of $\mathbb{R}^2$, the 2D lattice $\{a\mathbf{v} + b\mathbf{w} \, | \, a, b \in \mathbb{Z}\}$. Points on the lattice are described by their integer coefficients in the basis. For example, the lattice point $(a, b) \in \mathbb{Z}^2$ corresponds to the translation $a\mathbf{v} + b\mathbf{w} \in \mathbb{R}^2$.</p>
+<p>To each point in the lattice we associate the translated bounding box with its center at that lattice point. The lattice point $(0, 0)$ is associated to the bounding box that was part of the input to the algorithm.</p>
+<p>We&rsquo;d like to assume that this input bounding box or one of its neighbours overlaps with the canvas. But because the user can move the pattern arbitrarily far in any direction, the input bounding box might be very far away from the canvas. Therefore the first step is to find the point in the lattice that is closest to the center of the canvas. The bounding box centered at this central lattice point then replaces the input bounding box as the reference corresponding to lattice point $(0, 0)$.</p>
+<p>The task is now to find the set of lattice coefficients $(a_1, b_1), \ldots, (a_n, b_n)$ such that the corresponding bounding boxes are exactly the ones that overlap with the canvas.</p>
+<h2 id="properties-of-the-set-of-lattice-coefficients">Properties of the set of lattice coefficients</h2>
+<p>Before describing the algorithm to find the set of lattice coefficients, we will identify two properties of the set that the algorithm will rely on. In addition, we&rsquo;ll specify assumptions that the bounding box and canvas need to satisfy for these two properties to hold.</p>
+<p>To gain intuition, consider a simple discrete lattice with basis vectors $(1, 0)$ and $(0, 1)$. Then the set of coefficients that we&rsquo;re looking for form an unrotated (i.e. axis-aligned) rectangle: $$\{(a, b) \in \mathbb{Z}^2 \, | \, k \leq a \leq l, m \leq b \leq n \}$$ for some $k, l, m, n \in \mathbb{Z}$.</p>
+<p>More generally, for orthogonal basis vectors the set of coefficients will look like a rotated rectangle, and for arbitrary basis vectors it will be a parallelogram.</p>
+<p>Intuitively then, the set is connected and convex.</p>
+<p>The natural definition of a convex subset of $\mathbb{Z}^2$ is probably that it&rsquo;s of the form $\mathbb{Z}^2 \cap U$ where $U \subset \mathbb{R}^2$ is convex. But this is stronger than what we&rsquo;ll need, so we&rsquo;ll use this weaker definition: the finite set $S \subset \mathbb{Z}^2$ is convex if its intersection with any row or column is connected. I.e. for any $n \in \mathbb{Z}$ the intersection $\{(a, n) \in S \, | \, a \in \mathbb{Z} \}$ is of the form $\{a \, | \, k \leq a \leq l\}$ for some $k, l \in \mathbb{Z}^2$, and similarly for intersections with columns. For example, the set $\{(1, 0), (2, 0), (3, 0)\}$ is convex, but $\{(1, 0), (2, 0), (4, 0)\}$ is not. Note that this definition includes T-shaped sets which are not convex according to the natural definition.</p>
+<p>According to our weaker definition, the set $\{(0, 0), (5, 1)\}$ would also be convex. But this seems unlikely to correspond to all overlapping bounding boxes (for example we might expect $(2, 0)$ to also be in the set). It contradicts our expectation that the set should be connected. To define connectedness, we first define the neighbours of a point as all its eight neighbours, i.e. including the diagonals. A set is then considered to be connected if there&rsquo;s a sequence of pairwise neighbours between any two points in the set.</p>
+<p>We would now like to claim that the set of coefficients of overlapping bounding boxes is always a connected convex set. Surprisingly, this is not true! For example, the set $\{(0, 0), (5, 1)\}$ given above can occur. It turns out that this can only happen if the bounding box or canvas is very elongated, i.e. the aspect ratio is very different from 1.</p>
+<p>We could rescue our claim by relaxing the definition of what it means to be neighbours, with the amount of relaxation depending on the aspect ratios of the bounding box and canvas. But it&rsquo;s simpler to just replace both bounding box and canvas by the smallest squares that contain them. For example, if the width of the canvas is greater than its height, replace it with a canvas with the same width but a larger height to turn it into a square, and the center at the same position. For a canvas with aspect ratio r, this would slow down the algorithm by a factor of r, but at least it allows us to prove that our algorithm always works.</p>
+<p>So to summarise, if we assume that the bounding box and canvas are both squares, then the set of coefficients of overlapping bounding boxes will always be connected and convex.</p>
+<h2 id="the-algorithm">The algorithm</h2>
+<p>The algorithm for finding the set of lattice coefficients corresponding to bounding boxes that overlap with the canvas is as follows:</p>
+<ol>
+<li>Initialise the set of coefficients to just the origin: $\{(0, 0)\}$.</li>
+<li>Find the smallest $a_0$ and largest $b_0$ such that all the points from $(a_0, 0)$ to $(b_0, 0)$ are in the set by searching to the left and right from the origin.</li>
+<li>Next, find the smallest $a_1$ and largest $b_1$ such that all the points from $(a_1, 1)$ to $(b_1, 1)$ are in the set. Start by setting $a_1 = a_0 - 1$, do a linear search to the left and then to the right if necessary. Similar for $b_1$.</li>
+<li>Continue like this until we find a row with no points in the set.</li>
+<li>Repeat in the negative y-direction.</li>
+</ol>
+<p>This gives the entire set. The reason that we have to start searching at $(a_0 - 1, 1)$ for example instead of $(a_0, 1)$ is because a given point has eight neighbours, not four. In addition, it could be that the origin $(0, 0)$ is not in the set. But if the set is not empty, one of the eight neighbours of the origin will be in the set.</p>
+<h2 id="time-complexity">Time complexity</h2>
+<p>As we zoom out, the number of bounding boxes inside the canvas increases, along with the time needed to update the canvas. The time to update the canvas is partly taken up by running the algorithm above (<code>generateCovering</code>), and partly by drawing the pattern on the canvas (<code>transformDraw</code>). These two parts differ in their time complexity.</p>
+<p>The above algorithm only considers bounding boxes that are near the canvas boundary, not ones inside the canvas far from the boundary. Every row of the set of coefficients is represented by its edges, not the entire row. Let $k$ be the ratio between the size (width or height) of the canvas and the size of the bounding box. Then the time needed for finding the coefficients using the above algorithm is linear in $k$. But since the total number of coefficients increases quadratically, the time for drawing the pattern is quadratic in $k$.</p>
+<p>I used a profiler at different zoom levels to confirm the linear and quadratic time complexities. When viewing the pattern at its initial zoom level, the two parts take roughly the same amount of time. But as we zoom out the time required to draw the pattern starts to dominate.</p>
+<p>This implies that if we wanted to decrease the time needed to update the canvas, we should not focus on optimising the algorithm for finding the lattice coefficients.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Besides the algorithm discussed above, there were a few other interesting aspects to the project:</p>
+<ul>
+<li>It was harder than expected to ensure that we zoom relative to the mouse pointer, i.e. that the point of the pattern at the mouse pointer remains fixed while zooming in and out.</li>
+<li>Another tricky part was finding the coefficients $a$ and $b$ for given $\mathbf{z}$ and basis vectors $\mathbf{v}$ and $\mathbf{w}$ such that $\mathbf{z} = a\mathbf{v} + b\mathbf{w}$. I was familiar with the solution when $\mathbf{v}$ and $\mathbf{w}$ are orthogonal ($a = (\mathbf{z} \cdot \mathbf{v})/(\mathbf{v} \cdot \mathbf{v})$), but not with the non-orthogonal case. This part was necessary for finding the bounding box closest to the canvas center.</li>
+</ul>
+<p>This was a fun project for learning some Javascript. Halfway through I switched to Typescript, which made the code easier to read and debug. I used <a href="https://parceljs.org/">Parcel</a> to automatically update the local page every time I modified a file.</p>
+<p>I also enjoyed the process of repeatedly refactoring the code to simplify it and introduce new abstractions. During this process several of the classes that I started with turned into functions, and the only classes that remained were simple ones such as <code>Vector</code>, <code>Basis</code>, <code>Rectangle</code> and <code>Transformation</code>.</p>
+<p>My next step would be to add more patterns.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>
